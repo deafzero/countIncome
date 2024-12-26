@@ -18,7 +18,7 @@ maka akan mengitung pendapatan di 4 minggu kedepan dimulai dari minggu kedua, An
 `python income_per_week.py -w 10`\
 maka akan mengitung pendapatan di 10 minggu kedepan dimulai dari minggu kedua.
 #### 📚 how to work
-- pertama mendefinisikan pendapatan yang konsisten ditiap minggu nya `income_per_week = 50_000`.
+- pertama mendefinisikan pendapatan yang konsisten ditiap minggunya `income_per_week = 50_000`.
 - selanjutnya saya mengambil flag `-w` / `--week` untuk mengambil banyak minggu yang akan dikalkulasi.
 - `now = datetime.datetime.now()` pada kode ini saya gunakan untuk mendapatkan tanggal dihari ini yang kemudian akan dilakukan penjumlahan pada flag `-w` / `--week`.
 - didalam blok `while` diisi dengan kalkulasi pendapatan ditiap minggunya lalu ditampilkan.
